@@ -1,0 +1,75 @@
+body {
+    background-color: #2A2E35;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    overflow-x: hidden;
+    
+}
+
+.profile {
+    background-image: url(./profile.jpg);
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px black;
+}
+
+.title-name {
+    margin-bottom: -12px;
+}
+
+
+.highlight-text {
+    color: #45d1a2
+}
+
+/* Social Bar Code */
+
+
+.social-title {
+    margin-top: 0px;
+}
+.github {
+    background-color: #474C53;
+    width: 300px;
+    height: 55px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.twitter {
+    background-color: #474C53;
+    width: 300px;
+    height: 55px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.linkedin {
+    background-color: #474C53;
+    width: 300px;
+    height: 55px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.instagram {
+    background-color: #474C53;
+    width: 300px;
+    height: 55px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+

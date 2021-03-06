@@ -5,6 +5,7 @@ body {
     box-sizing: border-box;
     color: white;
     overflow-x: hidden;
+   
     
 }
 
@@ -15,7 +16,9 @@ body {
     height: 120px;
     margin: 0 auto;
     border-radius: 50%;
+    border: solid #45d1a2;
     box-shadow: 1px 1px 1px black;
+    
 }
 
 .title-name {
@@ -27,6 +30,10 @@ body {
     color: #45d1a2
 }
 
+.highlight-text-red {
+    color: red
+}
+
 /* Social Bar Code */
 
 
@@ -34,7 +41,7 @@ body {
     margin-top: 0px;
 }
 .github {
-    background-color: #474C53;
+    background: linear-gradient(to right, #4078C0 0%, #6E5494 100%);
     width: 300px;
     height: 55px;
     border-radius: 10px;
@@ -44,7 +51,7 @@ body {
 }
 
 .twitter {
-    background-color: #474C53;
+    background: linear-gradient(to right, #36D8FF 0%, #00ACEE 100%);
     width: 300px;
     height: 55px;
     border-radius: 10px;
@@ -54,7 +61,7 @@ body {
 }
 
 .linkedin {
-    background-color: #474C53;
+    background: linear-gradient(to right, #0077B5 0%, #00A0DC 100%);
     width: 300px;
     height: 55px;
     border-radius: 10px;
@@ -64,12 +71,16 @@ body {
 }
 
 .instagram {
-    background-color: #474C53;
+    background: linear-gradient(to right, #F58529 0%, #DD2A7B 100%);
     width: 300px;
     height: 55px;
     border-radius: 10px;
     margin: 0 auto;
     margin-bottom: 15px;
     cursor: pointer;
+}
+
+.footer-text {
+    margin-top: 50px;
 }
 

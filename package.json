@@ -9,6 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "darkmode-js": "^1.5.7",
+    "font-awesome": "^4.7.0",
+    "particles.vue": "^2.2.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {

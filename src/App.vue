@@ -5,21 +5,21 @@
 </template>
 
 <script>
-import HelloWorld from './components/Home/Home.vue'
+import HelloWorld from "./components/Home/Home.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    HelloWorld,
+  },
+};
 </script>
 
 <style>
-@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+@import url("http://fonts.cdnfonts.com/css/sofia-pro");
 
 #app {
-  font-family: 'Sofia Pro', sans-serif;                                            
+  font-family: "Sofia Pro", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

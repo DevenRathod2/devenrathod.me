@@ -15,25 +15,25 @@
         </div>
         <div class="social-container">
           <button
-            class="github"
+            class="github common-css"
             onClick="location.href='https://github.com/devenrathod2'"
           >
             I'm On GitHub
           </button>
           <button
-            class="twitter"
+            class="twitter common-css"
             onClick="location.href='https://twitter.com/IamDevenR'"
           >
             I'm Also on Twitter
           </button>
           <button
-            class="linkedin"
+            class="linkedin common-css"
             onClick="location.href='https://linkedin.com/in/devenrathod'"
           >
             Let's Make Connection
           </button>
           <button
-            class="instagram"
+            class="instagram common-css"
             onClick="location.href='https://instagram.com/the_exploitz'"
           >
             Follow Me On Instagram

@@ -7,7 +7,7 @@ body {
     box-sizing: border-box;
     color: white;
     overflow-x: hidden;
-    font-family: "Sofia Pro", sans-serif;
+    font-family: 'Poppins', sans-serif;
    
     
 }
@@ -58,6 +58,10 @@ a {
     flex-direction: column;
     margin: 0 auto;
 }
+
+button {
+    font-family: 'Poppins', sans-serif;;
+}
 .github {
     background: linear-gradient(to right, #4078C0 0%, #6E5494 100%);
     width: 300px;
@@ -67,7 +71,6 @@ a {
     cursor: pointer;
     outline: none;
     border: none;
-    font-family: "Sofia Pro", sans-serif;
     font-size: 1.2em;
     font-weight: 700;
     color: white;
@@ -83,7 +86,6 @@ a {
     cursor: pointer;
     outline: none;
     border: none;
-    font-family: "Sofia Pro", sans-serif;
     font-size: 1.2em;
     font-weight: 700;
     color: white;
@@ -101,7 +103,6 @@ a {
     cursor: pointer;
     outline: none;
     border: none;
-    font-family: "Sofia Pro", sans-serif;
     font-size: 1.2em;
     font-weight: 700;
     color: white;
@@ -118,7 +119,6 @@ a {
     cursor: pointer;
     outline: none;
     border: none;
-    font-family: "Sofia Pro", sans-serif;
     font-size: 1.2em;
     font-weight: 700;
     color: white;

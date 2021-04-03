@@ -7,6 +7,7 @@
 <script>
 import HelloWorld from "./components/Home/Home.vue";
 
+
 export default {
   name: "App",
   components: {
@@ -17,9 +18,9 @@ export default {
 
 
 <style>
-@import url("http://fonts.cdnfonts.com/css/sofia-pro");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 #app {
-  font-family: "Sofia Pro", sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

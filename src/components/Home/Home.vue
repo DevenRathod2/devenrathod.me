@@ -4,7 +4,7 @@
     <div class="main">
       <div class="container">
         <div class="profile">
-          <img src="/profile.jpg" alt="" />
+          <!-- <img src="./profile.jpg" alt="" /> -->
         </div>
         <div class="title">
           <h1 class="title-name">Deven Rathod</h1>
@@ -34,7 +34,7 @@
           </button>
           <button
             class="instagram common-css"
-            onClick="location.href='https://instagram.com/the_exploitz'"
+            onClick="location.href='https://instagram.com/devenrathod.me'"
           >
             Follow Me On Instagram
           </button>

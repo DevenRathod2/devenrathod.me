@@ -1,5 +1,4 @@
 
-@import url("http://fonts.cdnfonts.com/css/sofia-pro");
 body {
     background-color: #2A2E35;
     padding: 0;
@@ -67,7 +66,6 @@ a {
     cursor: pointer;
     outline: none;
     border: none;
-    font-family: "Sofia Pro", sans-serif;
     font-size: 1.2em;
     font-weight: 700;
     color: white;

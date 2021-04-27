@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 body {
     background-color: #2A2E35;
     padding: 0;
@@ -6,7 +7,7 @@ body {
     box-sizing: border-box;
     color: white;
     overflow-x: hidden;
-    font-family: "Sofia Pro", sans-serif;
+    font-family: 'Kalam', cursive;
    
     
 }
@@ -26,7 +27,7 @@ a {
    
     border-radius: 50%; 
     border: 3px solid #45d1a2;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 2px 2px 1px black;
     margin-top: -20px;
     
 }
@@ -60,7 +61,7 @@ a {
     margin: 0 auto;
 }
 
-.common-css{
+.comn-button{
     width: 300px;
     height: 55px;
     border-radius: 10px;
@@ -72,6 +73,7 @@ a {
     font-weight: 700;
     color: white;
     margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -84,8 +86,6 @@ a {
     background: linear-gradient(to right, #36D8FF 0%, #00ACEE 100%);
 }
 
-
-
 .linkedin {
     background: linear-gradient(to right, #0077B5 0%, #00A0DC 100%);
     
@@ -97,5 +97,15 @@ a {
 
 .footer-text {
     margin-top: 10px;
+}
+
+.footer-img {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.gitcode{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 

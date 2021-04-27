@@ -99,7 +99,7 @@ a {
     margin-top: 10px;
 }
 
-.footer-img {
+.footer-img > img{
     margin: 20px;
     cursor: pointer;
 }

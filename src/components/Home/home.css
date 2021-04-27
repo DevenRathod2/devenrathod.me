@@ -17,13 +17,15 @@ a {
 }
 
 .profile {
+    /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
     background-image: url(./profile.webp);
     background-size: cover;
     width: 120px;
     height: 120px;
     margin: 0 auto;
-    border-radius: 50%;
-    border: solid #45d1a2;
+   
+    border-radius: 50%; 
+    border: 3px solid #45d1a2;
     box-shadow: 1px 1px 1px black;
     margin-top: -20px;
     

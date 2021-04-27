@@ -10,7 +10,11 @@
           <h1 class="title-name">Deven Rathod</h1>
           <p>
             Full Stack Developer <br />
-           <a href="https://service.developerspot.in/" target="https://service.developerspot.in"><span class="highlight-text">@DeveloperSpot</span></a> 
+            <a
+              href="https://service.developerspot.in/"
+              target="https://service.developerspot.in"
+              ><span class="highlight-text">@DeveloperSpot</span></a
+            >
           </p>
         </div>
         <div class="social-container">

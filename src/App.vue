@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Home/>
-    <particles-bg color="#45d1a2" num=30 type="cobweb" :canvas="{backgroundColor:'#2A2E35'}" :bg="true"/>
+    <particles-bg color="#45d1a2" num=30 type="cobweb"  :bg="true"/>
   </div>
 </template>
 <script>

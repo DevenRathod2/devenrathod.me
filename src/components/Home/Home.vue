@@ -26,7 +26,7 @@
           </button>
           <button
             class="twitter comn-button"
-            onClick="location.href='https://twitter.com/IamDevenR'"
+            onClick="location.href='https://twitter.com/devenrathod_me'"
           >
             I'm Also on Twitter
           </button>

@@ -6,13 +6,12 @@
 </template>
 <script>
 import Home from "./components/Home/Home.vue";
-import { ParticlesBg } from "particles-bg-vue";
 
 export default {
   name: "App",
   components: {
     Home,
-    ParticlesBg
+    
   },
 };
 </script>

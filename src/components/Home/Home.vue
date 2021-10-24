@@ -4,7 +4,6 @@
     <div class="main">
       <div class="container">
         <div class="profile">
-          <!-- <img src="./profile.jpg" alt="" /> -->
         </div>
         <div class="title">
           <h1 class="title-name">Deven Rathod</h1>

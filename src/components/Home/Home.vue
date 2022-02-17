@@ -47,28 +47,7 @@
               Design with <span class="highlight-text-red">&#10084;</span> By
               <span class="highlight-text">Deven Rathod</span>
             </p>
-            <div class="footer-img">
-              <img
-                src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"
-                alt="Netlify"
-                onClick="location.href='https://www.netlify.com/'"
-          
-              />
-
-              <img
-                src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D"
-                alt="Vue.JS"
-                onClick="location.href='https://vuejs.org/'"
-              />
-              <div class="gitcode">
-                Get Source Code on Github
-              </div>
-              <img
-                src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
-                alt="Github"
-                onClick="location.href='https://github.com/DevenRathod2/landing-page-on-vue.js'"
-              />
-            </div>
+           
           </div>
         </div>
       </div>

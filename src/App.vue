@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <Home/>
-    <particles-bg color="#45d1a2" num=30 type="cobweb"  :bg="true"/>
   </div>
 </template>
 <script>
 import Home from "./components/Home/Home.vue";
+
 
 export default {
   name: "App",

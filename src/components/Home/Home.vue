@@ -23,6 +23,12 @@
           >
             I'm On GitHub 
           </button>
+           <button
+            class="linkedin comn-button"
+            onClick="location.href='https://linkedin.com/in/devenrathod'"
+          >
+            Let's Make Connection
+          </button>
           <button
             class=" github comn-button"
             onClick="location.href='https://twitter.com/IamDevenR'"

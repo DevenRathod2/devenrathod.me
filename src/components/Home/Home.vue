@@ -18,19 +18,19 @@
         </div>
         <div class="social-container">
           <button
-            class="github comn-button"
+            class="linkedin comn-button"
             onClick="location.href='https://github.com/devenrathod2'"
           >
-            I'm On GitHub
+            I'm On GitHub 
           </button>
           <button
-            class="twitter comn-button"
+            class=" github comn-button"
             onClick="location.href='https://twitter.com/IamDevenR'"
           >
             I'm Also on Twitter
           </button>
           <button
-            class="linkedin comn-button"
+            class=" twitter comn-button"
             onClick="location.href='https://linkedin.com/in/devenrathod'"
           >
             Let's Make Connection

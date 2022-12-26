@@ -1,0 +1,19 @@
+{
+  "name": "devenrathod",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider; nuxt",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; nuxt build",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider; nuxt start",
+    "generate": "export NODE_OPTIONS=--openssl-legacy-provider; nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.25.3",
+    "nuxt": "^2.15.8",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {}
+}

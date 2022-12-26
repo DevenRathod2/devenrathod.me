@@ -62,3 +62,5 @@
 <style>
 @import url('../assets/style.css');
 </style>
+
+<!-- // export SET NODE_OPTIONS=--openssl-legacy-provider -->

@@ -107,6 +107,12 @@ section {
   color: #f0f0f0;
 }
 
+
+.say-hi-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .say-hi-container > h3 {
   display: flex;
   flex-direction: row;
@@ -116,12 +122,19 @@ section {
   top: 510px;
 }
 
-.say-hi-container > h3:hover {
+.say-hi-container > img {
+    width: auto;
+    height: 8px;
+    margin-left: -480px;
+    text-align: center;
+}
+
+/* .say-hi-container > h3:hover {
     color: #9845e8;
     cursor: pointer;
     scale: 1.2;
     transition: ease 0.6s;
-}
+} */
 
 .btn-container {
 display: flex;
@@ -143,7 +156,7 @@ left: 185px;
     border: solid 2px;
     border-radius: 7px;
     border: 2px solid;
-    border: 2px solid;
+    border-image: linear-gradient(to right, #9358F7, #10D7E2)1;
     /* border-image-source: linear-gradient(51.06deg, #9358F7 0.87%, #9259F7 7.31%, #8E5DF6 13.75%, #8862F5 20.19%, #806BF4 26.63%, #7575F2 33.07%, #6882F0 39.51%, #5990EE 45.95%, #4A9FEB 52.39%, #3BADE9 58.84%, #2EBAE7 65.28%, #23C4E5 71.72%, #1BCDE4 78.16%, #15D2E3 84.6%, #11D6E2 91.04%, #10D7E2 97.48%); */
 
 }
@@ -159,6 +172,8 @@ left: 185px;
     border-radius: 7px;
     border: 2px solid;
     border: 2px solid;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #6964DE, #FCA6E9) 1;
 }
 
 .upwork-btn {
@@ -170,6 +185,7 @@ left: 185px;
     border-radius: 7px;
     border: 2px solid;
     border: 2px solid;
+    border-image: linear-gradient(to right, #F4426C, #FBF2B1) 1;
 }
 
 .github-btn {
@@ -181,6 +197,25 @@ left: 185px;
     border-radius: 7px;
     border: 2px solid;
     border: 2px solid;
+    border-image: linear-gradient(to right, #D24074, #6518B4)1;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+button > img {
+    margin: 0;
+}
+
+button > h3 {
+    font-size: .9rem;
+    margin: 0;
+
 }
 
 button:hover {
@@ -190,7 +225,8 @@ button:hover {
 @media only screen and (max-width: 600px) {
     
     body {
-        height: 100%;
+        height: 100vh;
+        width: 100vw;
         background-color: #000;
     }
     .menu {
@@ -226,7 +262,11 @@ button:hover {
         flex-direction: column;
         left: 40px;
         top: 780px;
-        width: 80%;
+        width: 100%;
+    }
+
+    button {
+        height: 150px;
     }
 
     .email-btn {
@@ -239,7 +279,7 @@ button:hover {
 
 /* Animations */
 
-.tracking-in-contract-bck {
+/* .tracking-in-contract-bck {
 	animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
@@ -259,7 +299,7 @@ button:hover {
       opacity: 1;
     }
   }
-  
+   */
   
   
 
@@ -281,7 +321,7 @@ button:hover {
   } */
 
 
-  .tracking-in-contract {
+  /* .tracking-in-contract {
 	animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
@@ -295,9 +335,8 @@ button:hover {
       opacity: 0.6;
     }
     100% {
-      /* letter-spacing: normal; */
       opacity: 1;
     }
-  }
+  } */
   
   

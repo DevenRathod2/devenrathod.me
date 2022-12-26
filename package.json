@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "export SET NODE_OPTIONS=--openssl-legacy-provider && nuxt",
+    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && nuxt build",
+    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && nuxt start",
+    "generate": "export SET NODE_OPTIONS=--openssl-legacy-provider && nuxt generate"
   },
   "dependencies": {
     "core-js": "^3.25.3",
